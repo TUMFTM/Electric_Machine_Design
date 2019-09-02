@@ -43,5 +43,8 @@ MATLAB® 2017 and above.
 ## Validation
 The tool was validated using know machine parameters of the BMW i3, Nissan Leaf and VW e-Golf.
 
+## Publication
+https://ieeexplore-ieee-org.eaccess.ub.tum.de/document/8813601
+DOI: 10.1109/EVER.2019.8813601
 
 Contact person: [Svenja Kalt](mailto:svenja.kalt@ftm.mw.tum.de)
