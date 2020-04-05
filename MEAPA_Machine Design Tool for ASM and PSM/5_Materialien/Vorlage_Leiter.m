@@ -3,8 +3,8 @@
 % -------------------------------------------------------------------------
 % Modell fuer den Entwurf und die Analyse einer PMSM oder ASM (MEAPA)
 % -------------------------------------------------------------------------
-% Autor:    Jonathan Erhard (jonathan.erhard@tum.de)
-% Version:  v0.7 - 19.05.2019 - je
+% Autor: Svenja Kalt (kalt@ftm.mw.tum.de)
+%        Jonathan Erhard
 % -------------------------------------------------------------------------
 
 % Hinweis: Um neue Dateien fuer Leiter zu erzeugen muss ein struct mit den
@@ -27,7 +27,7 @@ data.Bezeichnung = 'Kupfer';
 % Dichte des Leiterwerkstoffs rho_Le [kg/m^3]
 data.rho_Le = 8940;
 
-% Richtwert spezifischer Widerstand rho_20 bei 20°C fuer Kupferdraht [mm^2/S*m]
+% Richtwert spezifischer Widerstand rho_20 bei 20Â°C fuer Kupferdraht [mm^2/S*m]
 % Quelle: [Mueller08, S.435 - Tabelle 6.3.1]
 data.rho_20 = 1/58;
 
@@ -46,7 +46,7 @@ data.Bezeichnung = 'Aluminiumdraht';
 % Dichte des Leiterwerkstoffs rho_Fe [kg/m^3]
 data.rho_Le = 2700;
 
-% Richtwert spezifischer Widerstand rho_20 bei 20°C fuer Aluminiumdraht [mm^2/S*m]
+% Richtwert spezifischer Widerstand rho_20 bei 20Â°C fuer Aluminiumdraht [mm^2/S*m]
 % Quelle: [Mueller08, S.435 - Tabelle 6.3.1]
 data.rho_20 = 1/37;
 
@@ -65,7 +65,7 @@ data.Bezeichnung = 'Aluminiumguss';
 % Dichte des Leiterwerkstoffs rho_Fe [kg/m^3]
 data.rho_Le = 2700;
 
-% Richtwert spezifischer Widerstand rho_20 bei 20°C fuer Aluminiumdraht [mm^2/S*m]
+% Richtwert spezifischer Widerstand rho_20 bei 20Â°C fuer Aluminiumdraht [mm^2/S*m]
 % Quelle: [Mueller08, S.435 - Tabelle 6.3.1]
 data.rho_20 = 1/30;
 
