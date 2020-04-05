@@ -3,8 +3,8 @@
 % -------------------------------------------------------------------------
 % Modell fuer den Entwurf und die Analyse einer PMSM oder ASM (MEAPA)
 % -------------------------------------------------------------------------
-% Autor:    Jonathan Erhard (jonathan.erhard@tum.de)
-% Version:  v0.7 - 19.05.2019 - je
+% Autor: Svenja Kalt (kalt@ftm.mw.tum.de)
+%        Jonathan Erhard
 % -------------------------------------------------------------------------
 
 % Hinweise zur Verwendung dieses Skripts:
@@ -74,7 +74,7 @@ if(strcmp(opt.Maschinentyp,'ASM'))
     opt.Stator_Leitermaterial.String    = 'Kupfer';                        % 'Aluminiumdraht', 'Aluminiumguss', 'Kupfer'
     opt.Stator_Leitermaterial = loadMaterial(opt.Stator_Leitermaterial,'Leiter');
     
-    % Temperatur Leitermaterial Stator [°C]
+    % Temperatur Leitermaterial Stator [Â°C]
     opt.theta_1                         = 90;
     
     % Eisenmaterial Rotor
@@ -85,7 +85,7 @@ if(strcmp(opt.Maschinentyp,'ASM'))
     opt.Rotor_Leitermaterial.String     = 'Aluminiumguss';                 % 'Aluminiumdraht', 'Aluminiumguss', 'Kupfer'
     opt.Rotor_Leitermaterial = loadMaterial(opt.Rotor_Leitermaterial,'Leiter');
     
-    % Temperatur Leitermaterial Rotor [°C]
+    % Temperatur Leitermaterial Rotor [Â°C]
     opt.theta_2                         = 115;
     
     % Modus Wicklungsauslegung
@@ -231,7 +231,7 @@ elseif(strcmp(opt.Maschinentyp,'PMSM'))
     opt.Stator_Leitermaterial.String    = 'Kupfer';                        % 'Aluminiumdraht', 'Aluminiumguss', 'Kupfer'
     opt.Stator_Leitermaterial = loadMaterial(opt.Stator_Leitermaterial,'Leiter');
     
-    % Temperatur Leitermaterial Stator [°C]
+    % Temperatur Leitermaterial Stator [Â°C]
     opt.theta_1                         = 90;
     
     % Eisenmaterial Rotor
