@@ -3,8 +3,8 @@
 % -------------------------------------------------------------------------
 % Modell fuer den Entwurf und die Analyse einer PMSM oder ASM (MEAPA)
 % -------------------------------------------------------------------------
-% Autor:    Jonathan Erhard (jonathan.erhard@tum.de)
-% Version:  v0.7 - 19.05.2019 - je
+% Autor: Svenja Kalt (kalt@ftm.mw.tum.de)
+%        Jonathan Erhard
 % -------------------------------------------------------------------------
 
 % Hinweis: Um neue Dateien fuer Magnete zu erzeugen muss ein struct mit den
@@ -43,8 +43,8 @@ data.rho_el = 0.65; % zwischen 0.65 und 0.95
 % Koerzitivfeldstaerke [A/m]
 data.H_c = 879e3;
 
-% Temperaturkoeffizient der magnetischen Remanenzinduktion [%/캜]
-% V/A: RT = 100캜
+% Temperaturkoeffizient der magnetischen Remanenzinduktion [%/째C]
+% V/A: RT = 100째C
 data.TK_B_r = -0.030;
 
 %}
@@ -72,8 +72,8 @@ data.rho_el = 1.4; % zwischen 1.4 und 1.6
 % Koerzitivfeldstaerke [A/m]
 data.H_c = 1058e3;
 
-% Temperaturkoeffizient der magnetischen Remanenzinduktion [%/캜]
-% V/A: RT = 100캜
+% Temperaturkoeffizient der magnetischen Remanenzinduktion [%/째C]
+% V/A: RT = 100째C
 data.TK_B_r = -0.111;
 
 %}
