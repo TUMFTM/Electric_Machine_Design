@@ -3,8 +3,8 @@
 % -------------------------------------------------------------------------
 % Modell fuer den Entwurf und die Analyse einer PMSM oder ASM (MEAPA)
 % -------------------------------------------------------------------------
-% Autor:    Jonathan Erhard (jonathan.erhard@tum.de)
-% Version:  v0.7 - 19.05.2019 - je
+% Autor: Svenja Kalt (kalt@ftm.mw.tum.de)
+%        Jonathan Erhard
 % -------------------------------------------------------------------------
 
 %% Inhaltsverzeichnis
@@ -1576,7 +1576,7 @@ else
         
     elseif(strcmp(opt.Maschinenausfuehrung,'IPMSM (V-Form)'))
         % Startwert des Oeffnungswinkel fuer IPMSM (V-Form) alpha_PM [rad]
-        % V/A: Oeffnungswinkel zu 120° festgelegt
+        % V/A: Oeffnungswinkel zu 120Â° festgelegt
         geo.alpha_PM = 120 * ((2*pi)/360);
         
         % Startwert des unteren Abstands zwischen den PM Abstand_PM_unten [mm]
