@@ -3,8 +3,8 @@
 % -------------------------------------------------------------------------
 % Modell fuer den Entwurf und die Analyse einer PMSM oder ASM (MEAPA)
 % -------------------------------------------------------------------------
-% Autor:    Jonathan Erhard (jonathan.erhard@tum.de)
-% Version:  v0.7 - 19.05.2019 - je
+% Autor: Svenja Kalt (kalt@ftm.mw.tum.de)
+%        Jonathan Erhard
 % -------------------------------------------------------------------------
 
 %% Inhaltsverzeichnis
@@ -169,7 +169,7 @@ clear C_mech_data
 
 % Reduktion des Ausnutzungsfaktors von Induktionsmaschinen anhand der Ausfuehrung und Betriebsart k_red [-]
 % Quelle: [Mueller08, S.572 - Tabelle 9.1.1]
-% V/A: Eintrittstemperatur des Primaerkuehlmittels = 40°C, keine Ex-geschuetzten Maschinen
+% V/A: Eintrittstemperatur des Primaerkuehlmittels = 40Â°C, keine Ex-geschuetzten Maschinen
 if(strcmp(opt.Kuehlungsart,'Innen- oder Kreislaufkuehlung'))
     if(strcmp(opt.Maschinenausfuehrung,'Kaefiglaeufer'))
         geo.misc.k_red = 1.0;
