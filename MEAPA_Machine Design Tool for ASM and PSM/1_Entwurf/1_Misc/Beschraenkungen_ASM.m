@@ -3,8 +3,8 @@
 % -------------------------------------------------------------------------
 % Modell fuer den Entwurf und die Analyse einer PMSM oder ASM (MEAPA)
 % -------------------------------------------------------------------------
-% Autor:    Jonathan Erhard (jonathan.erhard@tum.de)
-% Version:  v0.7 - 19.05.2019 - je
+% Autor: Svenja Kalt (kalt@ftm.mw.tum.de)
+%        Jonathan Erhard
 % -------------------------------------------------------------------------
 
 % Hinweis:
