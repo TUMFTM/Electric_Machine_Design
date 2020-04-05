@@ -3,15 +3,15 @@
 % -------------------------------------------------------------------------
 % Modell fuer den Entwurf und die Analyse einer PMSM oder ASM (MEAPA)
 % -------------------------------------------------------------------------
-% Autor:    Jonathan Erhard (jonathan.erhard@tum.de)
-% Version:  v0.7 - 19.05.2019 - je
+% Autor: Svenja Kalt (kalt@ftm.mw.tum.de)
+%        Jonathan Erhard
 % -------------------------------------------------------------------------
 
 % Hinweis: Die Richtwerte bestehen immer aus einem max-,min- und Standard-
 %          Wert je Zeile. Bei mehreren Zeilen sind die unterschiedlichen 
 %          Bedingungen anzugeben.
-%          Beispiel: |1.0 0.6 0.8| <- für p==1
-%                    |4.0 1.0 2.0| <- für p>1
+%          Beispiel: |1.0 0.6 0.8| <- fÃ¼r p==1
+%                    |4.0 1.0 2.0| <- fÃ¼r p>1
 %                      ^   ^   ^
 %                      |   |   |
 %                     max min Standard
