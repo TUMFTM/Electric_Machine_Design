@@ -3,8 +3,8 @@
 % -------------------------------------------------------------------------
 % Modell fuer den Entwurf und die Analyse einer PMSM oder ASM (MEAPA)
 % -------------------------------------------------------------------------
-% Autor:    Jonathan Erhard (jonathan.erhard@tum.de)
-% Version:  v0.7 - 19.05.2019 - je
+% Autor: Svenja Kalt (kalt@ftm.mw.tum.de)
+%        Jonathan Erhard
 % -------------------------------------------------------------------------
 
 %% Inhaltsverzeichnis
@@ -74,7 +74,7 @@ betr.omega_k_vec = linspace(0, betr.omega_k_max, opt.n_tics); % elektrische Wink
 betr.mot.M_max_vec = 1.5.*rated.p.*((emag.L_12.^2./emag.L_22).*ctrl.mot.i_1.^2.*0.5.*sin(2.*ctrl.mot.beta));
 betr.mot.M_max_vec = betr.mot.M_max_vec';
 
-% Toleranz für max Moment (Grund: numerische Ungenauigkeit)
+% Toleranz fÃ¼r max Moment (Grund: numerische Ungenauigkeit)
 tol = 1e-3;
 
 % Erstellen Momentenvektor
@@ -139,7 +139,7 @@ if(opt.Generator)
     betr.gen.M_max_vec = 1.5.*rated.p.*((emag.L_12.^2./emag.L_22).*ctrl.gen.i_1.^2.*0.5.*sin(2.*ctrl.gen.beta));
     betr.gen.M_max_vec = betr.gen.M_max_vec';
     
-    % Toleranz für max Moment (Grund: numerische Ungenauigkeit)
+    % Toleranz fÃ¼r max Moment (Grund: numerische Ungenauigkeit)
     tol = 1e-3;
     
     % Erstellen Momentenvektor
