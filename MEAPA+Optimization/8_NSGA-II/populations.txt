@@ -1,0 +1,170 @@
+#NSGA2
+popsize 4
+maxGen 10
+numVar 4
+numObj 3
+numCons 0
+stateFieldNames	currentGen	evaluateCount	totalTime	firstFrontCount	frontCount	avgEvalTime	
+#end
+
+
+#Generation 1 / 10
+currentGen	1
+evaluateCount	4
+totalTime	145.232
+firstFrontCount	1
+frontCount	4
+avgEvalTime	89.6371
+#end
+Var1	Var2	Var3	Var4	Obj1	Obj2	Obj3	
+172	6435	151	6	847.095	NaN	0.0152212	
+145	1585	211	5	1517.65	NaN	0.033242	
+194	6789	163	6	892.112	NaN	0.0159479	
+194	3912	420	4	1124.87	-65.4368	0.0202128	
+
+
+
+#Generation 2 / 10
+currentGen	2
+evaluateCount	8
+totalTime	216.49
+firstFrontCount	1
+frontCount	4
+avgEvalTime	57.9406
+#end
+Var1	Var2	Var3	Var4	Obj1	Obj2	Obj3	
+175	6303	471	6	744.073	-70.7895	0.0133152	
+172	6435	151	6	847.095	NaN	0.0152212	
+194	6789	163	6	892.112	NaN	0.0159479	
+176	4872	113	4	904.19	-69.2363	0.0163281	
+
+
+
+#Generation 3 / 10
+currentGen	3
+evaluateCount	12
+totalTime	322.972
+firstFrontCount	1
+frontCount	4
+avgEvalTime	90.0208
+#end
+Var1	Var2	Var3	Var4	Obj1	Obj2	Obj3	
+160	6303	471	6	711.329	-71.5672	0.0124355	
+175	6303	471	6	744.073	-70.7895	0.0133152	
+173	6590	168	6	790.583	NaN	0.0142924	
+175	5212	500	6	847.995	-68.1643	0.0150394	
+
+
+
+#Generation 4 / 10
+currentGen	4
+evaluateCount	16
+totalTime	410.212
+firstFrontCount	2
+frontCount	2
+avgEvalTime	80.3972
+#end
+Var1	Var2	Var3	Var4	Obj1	Obj2	Obj3	
+160	6303	471	6	711.329	-71.5672	0.0124355	
+160	6286	500	6	726.082	-71.376	0.012355	
+160	6020	444	6	721.88	-71.1158	0.0129389	
+150	5748	250	6	757.641	-70.7567	0.0125538	
+
+
+
+#Generation 5 / 10
+currentGen	5
+evaluateCount	20
+totalTime	496.371
+firstFrontCount	4
+frontCount	1
+avgEvalTime	80.1328
+#end
+Var1	Var2	Var3	Var4	Obj1	Obj2	Obj3	
+160	6303	471	6	711.329	-71.5672	0.0124355	
+160	6286	500	6	726.082	-71.376	0.012355	
+160	6303	471	6	711.329	-71.5672	0.0124355	
+160	6303	474	6	711.993	-71.5427	0.0124002	
+
+
+
+#Generation 6 / 10
+currentGen	6
+evaluateCount	24
+totalTime	576.493
+firstFrontCount	1
+frontCount	2
+avgEvalTime	76.8502
+#end
+Var1	Var2	Var3	Var4	Obj1	Obj2	Obj3	
+155	6308	458	6	696.079	-71.8807	0.012166	
+160	6301	493	6	720.963	-71.4376	0.0123522	
+160	6303	471	6	711.329	-71.5672	0.0124355	
+160	6303	471	6	711.329	-71.5672	0.0124355	
+
+
+
+#Generation 7 / 10
+currentGen	7
+evaluateCount	28
+totalTime	660.175
+firstFrontCount	1
+frontCount	4
+avgEvalTime	80.6684
+#end
+Var1	Var2	Var3	Var4	Obj1	Obj2	Obj3	
+136	6307	411	6	642.334	-73.1298	0.0112021	
+155	6702	458	6	674.325	-72.5942	0.0117031	
+155	6308	458	6	696.079	-71.8807	0.012166	
+157	6303	443	6	697.653	-71.8524	0.0123708	
+
+
+
+#Generation 8 / 10
+currentGen	8
+evaluateCount	32
+totalTime	741.756
+firstFrontCount	2
+frontCount	2
+avgEvalTime	77.1045
+#end
+Var1	Var2	Var3	Var4	Obj1	Obj2	Obj3	
+136	6307	411	6	642.334	-73.1298	0.0112021	
+136	6243	446	6	657.448	-72.8672	0.0111432	
+155	6702	458	6	674.325	-72.5942	0.0117031	
+142	6106	450	6	679.395	-72.2664	0.0116761	
+
+
+
+#Generation 9 / 10
+currentGen	9
+evaluateCount	36
+totalTime	822.68
+firstFrontCount	1
+frontCount	2
+avgEvalTime	78.5083
+#end
+Var1	Var2	Var3	Var4	Obj1	Obj2	Obj3	
+128	6238	424	6	625.085	-73.4336	0.0107342	
+136	6307	411	6	642.334	-73.1298	0.0112021	
+136	6307	429	6	646.937	-73.0723	0.0111393	
+136	6307	418	6	643.944	-73.1037	0.011185	
+
+
+
+#Generation 10 / 10
+currentGen	10
+evaluateCount	40
+totalTime	905.81
+firstFrontCount	1
+frontCount	4
+avgEvalTime	81.8769
+#end
+Var1	Var2	Var3	Var4	Obj1	Obj2	Obj3	
+126	6428	418	6	608.395	-73.8932	0.0104139	
+128	6396	436	6	621.807	-73.6387	0.0105246	
+128	6238	424	6	625.085	-73.4336	0.0107342	
+136	6426	452	6	649.473	-73.1521	0.0109125	
+
+
+
